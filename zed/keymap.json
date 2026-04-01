@@ -1,0 +1,85 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "bindings": {
+      "ctrl-w h": "workspace::ActivatePaneLeft",
+      "ctrl-w l": "workspace::ActivatePaneRight",
+      "ctrl-w k": "workspace::ActivatePaneUp",
+      "ctrl-w j": "workspace::ActivatePaneDown",
+
+      // ... or other keybindings
+    },
+  },
+  {
+    "context": "VimControl && !menu",
+    "bindings": {
+      // put key-bindings here if you want them to work in normal & visual mode
+      "space": null, // Disable the default action vim::WrappingRight
+      "space f": "file_finder::Toggle",
+      "space o": "projects::OpenRecent",
+      "space space": ["file_finder::Toggle", { "separate_history": true }],
+      "space b d": "pane::CloseActiveItem",
+      "space b q": "pane::CloseOtherItems",
+      "space t": "workspace::NewCenterTerminal",
+      "-": "workspace::ToggleLeftDock",
+      "space 1": ["pane::ActivateItem", 0],
+      "space 2": ["pane::ActivateItem", 1],
+      "space 3": ["pane::ActivateItem", 2],
+      "space 4": ["pane::ActivateItem", 3],
+      "space 5": ["pane::ActivateItem", 4],
+      "space 6": ["pane::ActivateItem", 5],
+      "space 7": ["pane::ActivateItem", 6],
+      "space 8": ["pane::ActivateItem", 7],
+      "space 9": ["pane::ActivateItem", 8],
+      "space 0": "pane::ActivateLastItem",
+    },
+  },
+  {
+    "context": "vim_mode == insert",
+    "bindings": {
+      // "j k": "vim::NormalBefore" // remap jk in insert mode to escape.
+    },
+  },
+  {
+    "context": "ProjectPanel && not_editing",
+    "bindings": {
+      "a": "project_panel::NewFile",
+      "A": "project_panel::NewDirectory",
+      "r": "project_panel::Rename",
+      "d": "project_panel::Delete",
+      "x": "project_panel::Cut",
+      "c": "project_panel::Copy",
+      "p": "project_panel::Paste",
+      // Close project panel as project file panel on the right
+      "q": "workspace::ToggleLeftDock",
+      "space e": "workspace::ToggleLeftDock",
+      ":": "command_palette::Toggle",
+      "%": "project_panel::NewFile",
+      "/": "project_panel::NewSearchInDirectory",
+      "enter": "project_panel::OpenPermanent",
+      "escape": "project_panel::ToggleFocus",
+      "h": "project_panel::CollapseSelectedEntry",
+      "j": "menu::SelectNext",
+      "k": "menu::SelectPrevious",
+      "l": "project_panel::ExpandSelectedEntry",
+      "o": "project_panel::OpenPermanent",
+      "shift-d": "project_panel::Delete",
+      "shift-r": "project_panel::Rename",
+      "t": "project_panel::OpenPermanent",
+      "v": "project_panel::OpenPermanent",
+      "shift-g": "menu::SelectLast",
+      "g g": "menu::SelectFirst",
+      "-": "project_panel::SelectParent",
+      "ctrl-6": "pane::AlternateFile",
+    },
+  },
+  {
+    "context": "",
+  },
+]

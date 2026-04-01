@@ -1,0 +1,9 @@
+theme = Gruvbox Material Dark
+font-family = Iosevka Nerd Font
+font-size = 13
+font-style-italic = false
+font-feature = -calt, -liga, -dlig
+shell-integration-features = no-cursor
+cursor-style = block
+cursor-style-blink = false
+keybind = shift+enter=text:\x1b\r
