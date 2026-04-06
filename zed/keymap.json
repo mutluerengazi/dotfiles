@@ -79,7 +79,4 @@
       "ctrl-6": "pane::AlternateFile",
     },
   },
-  {
-    "context": "",
-  },
 ]
