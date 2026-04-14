@@ -1,6 +1,16 @@
 {
+  "agent": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "gpt-5.3-codex",
+      "enable_thinking": true,
+      "effort": "medium"
+    },
+    "favorite_models": [],
+    "model_parameters": []
+  },
   "icon_theme": {
-    "mode": "dark",
+    "mode": "light",
     "light": "Material Icon Theme",
     "dark": "Material Icon Theme",
   },
@@ -23,7 +33,7 @@
   "theme": {
     "mode": "dark",
     "light": "One Light",
-    "dark": "Gruvbox Dark",
+    "dark": "Kanagawa Wave - No Italics",
   },
   "relative_line_numbers": "enabled",
   "ui_font_size": 13,
@@ -46,30 +56,7 @@
     "file_icons": true,
     "git_status": true,
   },
-  "toolbar": {
-    "breadcrumbs": false,
-    "quick_actions": false,
-  },
   "scrollbar": {
     "show": "never",
-  },
-  "experimental.theme_overrides": {
-    "syntax": {
-      "comment": {
-        "font_style": "normal",
-      },
-      "keyword": {
-        "font_style": "normal",
-      },
-      "variable.parameter": {
-        "font_style": "normal",
-      },
-      "punctuation.definition.keyword": {
-        "font_style": "normal",
-      },
-      "markup.italic": {
-        "font_style": "normal",
-      },
-    },
   },
 }
