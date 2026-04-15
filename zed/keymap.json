@@ -8,6 +8,8 @@
 [
   {
     "bindings": {
+      "ctrl-w": null,
+
       "ctrl-w h": "workspace::ActivatePaneLeft",
       "ctrl-w l": "workspace::ActivatePaneRight",
       "ctrl-w k": "workspace::ActivatePaneUp",

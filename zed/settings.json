@@ -1,5 +1,6 @@
 {
   "agent": {
+    "default_profile": "ask",
     "default_model": {
       "provider": "zed.dev",
       "model": "gpt-5.3-codex",
@@ -10,7 +11,7 @@
     "model_parameters": []
   },
   "icon_theme": {
-    "mode": "light",
+    "mode": "dark",
     "light": "Material Icon Theme",
     "dark": "Material Icon Theme",
   },
@@ -32,8 +33,8 @@
   "show_edit_predictions": true,
   "theme": {
     "mode": "dark",
-    "light": "One Light",
-    "dark": "Kanagawa Wave - No Italics",
+    "light": "Kanagawa Lotus - No Italics",
+    "dark": "One Dark",
   },
   "relative_line_numbers": "enabled",
   "ui_font_size": 13,
