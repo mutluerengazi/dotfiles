@@ -34,7 +34,7 @@
   "theme": {
     "mode": "dark",
     "light": "Kanagawa Lotus - No Italics",
-    "dark": "One Dark Pro",
+    "dark": "Dracula",
   },
   "relative_line_numbers": "enabled",
   "ui_font_size": 13,
