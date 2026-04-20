@@ -7,3 +7,4 @@ cursor-style = block
 cursor-style-blink = false
 keybind = shift+enter=text:\x1b\r
 cursor-color = cell-foreground
+shell-integration-features = no-cursor
