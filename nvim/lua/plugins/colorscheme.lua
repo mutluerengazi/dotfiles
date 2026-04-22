@@ -1,7 +1,7 @@
 return {
-  "Mofiqul/dracula.nvim",
+  "ellisonleao/gruvbox.nvim",
   priority = 1000,
   config = function()
-    require('dracula').load()
+    require('gruvbox').load()
   end
 }
