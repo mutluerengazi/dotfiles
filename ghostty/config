@@ -1,6 +1,6 @@
-theme = Gruvbox Dark
-font-family = Iosevka Nerd Font
-font-size = 13
+theme = Kanagawa Wave
+font-family = Iosevka Nerd Font Mono
+font-size = 12
 font-style-italic = false
 font-feature = -calt, -liga, -dlig
 cursor-style = block
