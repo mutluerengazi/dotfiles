@@ -1,7 +1,7 @@
 return {
-  "ellisonleao/gruvbox.nvim",
+  "catppuccin/nvim",
   priority = 1000,
   config = function()
-    require('gruvbox').load()
+    require('catppuccin').load()
   end
 }

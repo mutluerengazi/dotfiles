@@ -1,51 +1,65 @@
 {
-  "icon_theme": {
-    "mode": "dark",
-    "light": "Zed (Default)",
-    "dark": "Zed (Default)",
+  "agent": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "gpt-5.5",
+      "enable_thinking": true,
+      "effort": "medium",
+    },
+    "favorite_models": [],
+    "model_parameters": [],
   },
-  "colorize_brackets": true,
-  "vim": {
-    "cursor_shape": {
-      "normal": "block",
-      "insert": "block",
-      "replace": "underline",
-      "visual": "block",
+  "agent_servers": {
+    "opencode": {
+      "type": "registry",
+    },
+    "claude-acp": {
+      "type": "registry",
     },
   },
-  "vim_mode": true,
-  "which_key": {
-    "enabled": true,
-    "delay_ms": 100,
+  "icon_theme": {
+    "mode": "light",
+    "light": "Material Icon Theme",
+    "dark": "Material Icon Theme",
   },
+  "colorize_brackets": true,
+  "buffer_font_family": "FiraCode Nerd Font Mono",
   "confirm_quit": false,
-  "show_edit_predictions": true,
   "theme": {
     "mode": "dark",
-    "light": "Gruvbox Light",
-    "dark": "Kanagawa Wave - No Italics",
+    "light": "Catppuccin Latte - No Italics",
+    "dark": "Catppuccin Mocha - No Italics",
   },
-  "ui_font_size": 12,
-  "buffer_font_size": 12,
-  "ui_font_family": "FiraCode Nerd Font",
-  "buffer_font_family": "FiraCode Nerd Font Mono",
+  "ui_font_size": 13,
+  "buffer_font_size": 13,
   "cursor_blink": false,
   "project_panel": {
-    "dock": "right",
     "button": true,
     "auto_fold_dirs": false,
   },
   "terminal": {
-    "font_family": "FiraCode Nerd Font Mono",
     "blinking": "off",
-    "font_size": 12,
+    "font_size": 13,
+    "cursor_shape": "bar",
+    "font_family": "FiraCode Nerd Font Mono",
   },
   "soft_wrap": "none",
   "tabs": {
     "file_icons": true,
     "git_status": true,
   },
-  "scrollbar": {
-    "show": "never",
-  },
+
+  // "vim": {
+  //   "cursor_shape": {
+  //     "normal": "block",
+  //     "insert": "block",
+  //     "replace": "underline",
+  //     "visual": "block",
+  //   },
+  // },
+  // "vim_mode": true,
+  //   "which_key": {
+  //   "enabled": true,
+  //   "delay_ms": 100,
+  // },
 }

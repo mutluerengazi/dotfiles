@@ -7,6 +7,7 @@
 // from the command palette.
 [
   {
+    "context": "VimControl",
     "bindings": {
       "ctrl-w": null,
       "ctrl-w h": "workspace::ActivatePaneLeft",
@@ -48,7 +49,7 @@
     },
   },
   {
-    "context": "ProjectPanel && not_editing",
+    "context": "ProjectPanel && not_editing && VimControl",
     "bindings": {
       "a": "project_panel::NewFile",
       "A": "project_panel::NewDirectory",
