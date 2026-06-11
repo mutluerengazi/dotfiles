@@ -1,4 +1,4 @@
-theme = Catppuccin Mocha
+theme = Rose Pine Dawn
 font-family = Iosevka Nerd Font Mono
 font-size = 13
 font-style-italic = false
@@ -6,5 +6,4 @@ font-feature = -calt, -liga, -dlig
 cursor-style = block
 cursor-style-blink = false
 keybind = shift+enter=text:\x1b\r
-cursor-color = cell-foreground
 shell-integration-features = no-cursor
