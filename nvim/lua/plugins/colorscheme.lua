@@ -3,7 +3,7 @@ return {
 	name = "catppuccin",
 	priority = 1000,
 	config = function()
-		require("catppuccin").setup({ flavour = "latte", styles = { italics = false } })
-		vim.cmd("colorscheme catppuccin-latte")
+		require("catppuccin").setup({ flavour = "mocha", styles = { italics = false } })
+		vim.cmd("colorscheme catppuccin-mocha")
 	end,
 }
