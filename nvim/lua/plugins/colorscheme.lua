@@ -1,9 +1,8 @@
 return {
-	"catppuccin/nvim",
-	name = "catppuccin",
+	"Mofiqul/dracula.nvim",
 	priority = 1000,
 	config = function()
-		require("catppuccin").setup({ flavour = "mocha", styles = { italics = false } })
-		vim.cmd("colorscheme catppuccin-mocha")
+		require("dracula").setup({ italic_comment = false })
+		vim.cmd("colorscheme dracula")
 	end,
 }
