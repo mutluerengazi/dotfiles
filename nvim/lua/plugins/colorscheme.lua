@@ -1,8 +1,9 @@
 return {
-	"Mofiqul/dracula.nvim",
+	"rose-pine/neovim",
+	name = "rose-pine",
 	priority = 1000,
 	config = function()
-		require("dracula").setup({ italic_comment = false })
-		vim.cmd("colorscheme dracula")
+		require("rose-pine").setup({ variant = "dawn" })
+		vim.cmd("colorscheme rose-pine")
 	end,
 }
