@@ -1,10 +1,11 @@
 {
+  "cli_default_open_behavior": "existing_window",
   "agent": {
     "default_model": {
       "provider": "zed.dev",
       "model": "gpt-5.5",
       "enable_thinking": true,
-      "effort": "medium",
+      "effort": "high",
     },
     "favorite_models": [],
     "model_parameters": [],
@@ -25,9 +26,9 @@
   "colorize_brackets": true,
   "confirm_quit": false,
   "theme": {
-    "mode": "light",
+    "mode": "dark",
     "light": "Rosé Pine Dawn",
-    "dark": "Rosé Pine",
+    "dark": "Everforest Dark Medium (material)",
   },
   "ui_font_size": 14,
   "buffer_font_size": 13,
@@ -48,12 +49,7 @@
     "file_icons": true,
     "git_status": true,
   },
-  "vim_mode": false,
-  "vim": {
-    "cursor_shape": {
-      "insert": "block",
-    },
-  },
+  "vim_mode": true,
   "which_key": {
     "enabled": true,
     "delay_ms": 100,
