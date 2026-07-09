@@ -1,4 +1,8 @@
 {
+  "edit_predictions": {
+    "mode": "subtle",
+    "provider": "zed",
+  },
   "cli_default_open_behavior": "existing_window",
   "agent": {
     "default_model": {
@@ -7,14 +11,27 @@
       "enable_thinking": true,
       "effort": "high",
     },
-    "favorite_models": [],
+    "favorite_models": [
+      {
+        "provider": "zed.dev",
+        "model": "gpt-5.5",
+        "enable_thinking": true,
+        "effort": "high",
+      },
+      {
+        "provider": "zed.dev",
+        "model": "claude-sonnet-5",
+        "enable_thinking": true,
+        "effort": "high",
+      },
+    ],
     "model_parameters": [],
   },
   "agent_servers": {
-    "opencode": {
-      "type": "registry",
+    "codex-acp": {
+      "type": "registry"
     },
-    "claude-acp": {
+    "opencode": {
       "type": "registry",
     },
   },
@@ -26,13 +43,13 @@
   "colorize_brackets": true,
   "confirm_quit": false,
   "theme": {
-    "mode": "dark",
-    "light": "Rosé Pine Dawn",
-    "dark": "Everforest Dark Medium (material)",
+    "mode": "light",
+    "light": "Kanagawa Lotus - No Italics",
+    "dark": "Kanagawa Wave - No Italics",
   },
   "ui_font_size": 14,
   "buffer_font_size": 13,
-  "buffer_font_family": "Iosevka Nerd Font Mono",
+  "buffer_font_family": "FiraCode Nerd Font Mono",
   "cursor_blink": false,
   "project_panel": {
     "button": true,
@@ -41,15 +58,20 @@
   "terminal": {
     "blinking": "off",
     "font_size": 13,
-    "cursor_shape": "bar",
-    "font_family": "Iosevka Nerd Font Mono",
+    "cursor_shape": "block",
+    "font_family": "FiraCode Nerd Font Mono",
   },
   "soft_wrap": "none",
   "tabs": {
     "file_icons": true,
     "git_status": true,
   },
-  "vim_mode": true,
+  "vim_mode": false,
+  "vim": {
+    "cursor_shape": {
+      "insert": "block",
+    },
+  },
   "which_key": {
     "enabled": true,
     "delay_ms": 100,

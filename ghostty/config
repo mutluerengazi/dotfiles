@@ -1,6 +1,6 @@
-theme = everforest-dark-medium
-font-family = Iosevka Nerd Font Mono
-font-size = 13
+theme = Kanagawa Lotus
+font-family = FiraCode Nerd Font Mono
+font-size = 14
 font-style-italic = false
 font-feature = -calt, -liga, -dlig
 cursor-style = block
