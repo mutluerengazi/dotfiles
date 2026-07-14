@@ -1,7 +1,8 @@
-theme = Atom One Light
+theme = Catppuccin Latte
 font-family = FiraCode Nerd Font Mono
 font-size = 14
 font-style-italic = false
+font-style-bold-italic = false
 font-feature = -calt, -liga, -dlig
 cursor-style = block
 cursor-style-blink = false

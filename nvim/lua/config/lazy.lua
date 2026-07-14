@@ -20,6 +20,6 @@ require("lazy").setup({
         -- import plugins
         { import = "plugins" },
     },
-    install = { colorscheme = { "everforest" } },
+    install = { colorscheme = { "catppuccin-latte" } },
     checker = { enabled = true },
 })

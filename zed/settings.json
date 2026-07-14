@@ -7,16 +7,16 @@
   "agent": {
     "default_model": {
       "provider": "zed.dev",
-      "model": "gpt-5.5",
+      "model": "gpt-5.6-sol",
       "enable_thinking": true,
-      "effort": "high",
+      "effort": "medium",
     },
     "favorite_models": [
       {
         "provider": "zed.dev",
-        "model": "gpt-5.5",
+        "model": "gpt-5.6-sol",
         "enable_thinking": true,
-        "effort": "high"
+        "effort": "medium"
       }
     ],
     "model_parameters": [],
@@ -38,8 +38,8 @@
   "confirm_quit": false,
   "theme": {
     "mode": "light",
-    "light": "One Light",
-    "dark": "Kanagawa Wave - No Italics",
+    "light": "Catppuccin Latte - No Italics",
+    "dark": "One Dark",
   },
   "ui_font_size": 14,
   "buffer_font_size": 13,
