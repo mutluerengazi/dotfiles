@@ -37,9 +37,9 @@
   "colorize_brackets": true,
   "confirm_quit": false,
   "theme": {
-    "mode": "light",
+    "mode": "dark",
     "light": "Catppuccin Latte - No Italics",
-    "dark": "One Dark",
+    "dark": "GitHub Dark",
   },
   "ui_font_size": 14,
   "buffer_font_size": 13,
