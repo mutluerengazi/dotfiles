@@ -20,6 +20,6 @@ require("lazy").setup({
 		-- import plugins
 		{ import = "plugins" },
 	},
-	    install = { colorscheme = { "github_dark_default" } },
+	    install = { colorscheme = { "onedark" } },
 	checker = { enabled = true },
 })
