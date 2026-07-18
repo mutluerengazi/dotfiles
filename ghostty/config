@@ -1,6 +1,6 @@
-theme = Atom One Dark
+theme = Atom One Light
 font-family = FiraCode Nerd Font Mono
-font-size = 14
+font-size = 13
 font-style-italic = false
 font-style-bold-italic = false
 font-feature = -calt, -liga, -dlig
