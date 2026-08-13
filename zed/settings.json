@@ -30,7 +30,7 @@
     },
   },
   "icon_theme": {
-    "mode": "light",
+    "mode": "dark",
     "light": "Material Icon Theme",
     "dark": "Material Icon Theme",
   },
@@ -38,7 +38,7 @@
   "confirm_quit": false,
   "theme": {
     "mode": "light",
-    "light": "One Light",
+    "light": "Rosé Pine Dawn",
     "dark": "One Dark",
   },
   "ui_font_size": 14,
